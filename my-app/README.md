@@ -29,17 +29,17 @@ O usuário pode:
 
 ## 📂 Estrutura do Projeto
 
-src/
-├── components/
-│ ├── ListaTarefas.jsx
-│ └── Tarefa.jsx
-├── context/
-│ └── TarefasContext.jsx
-├── hooks/
-│ └── useLocalStorage.jsx (opcional)
-├── App.jsx
-├── App.css
-├── main.jsx
+src:
+--components/
+----ListaTarefas.jsx
+----Tarefa.jsx
+--context/
+----TarefasContext.jsx
+--hooks/
+----useLocalStorage.jsx (opcional)
+--App.jsx
+--App.css
+--main.jsx
 
 
 

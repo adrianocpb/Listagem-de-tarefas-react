@@ -1,0 +1,4 @@
+.lista-tarefas { list-style:none; padding:0; margin:0; }
+.filtros { display:flex; gap:8px; justify-content:center; margin-bottom:10px; }
+.filtros button { padding:8px 12px; border-radius:8px; border:none; background:#ddd; cursor:pointer; }
+.filtros button.ativo { background:#0062d6; color:#fff; }

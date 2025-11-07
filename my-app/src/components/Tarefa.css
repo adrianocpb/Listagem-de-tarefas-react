@@ -1,0 +1,23 @@
+/* item da lista */
+.lista-tarefas { list-style:none; padding:0; margin:0; }
+.tarefa-item {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px;
+  margin-bottom:10px;
+  background:#ffffff;
+  border-radius:8px;
+  border:1px solid #eee;
+}
+.tarefa-item .left { display:flex; align-items:center; gap:10px; }
+.tarefa-item input[type="checkbox"] { transform:scale(1.15); cursor:pointer; }
+
+/* texto */
+.tarefa-texto { font-size:16px; color:#222; }
+.tarefa-item.concluida .tarefa-texto { text-decoration:line-through; color:#777; }
+
+/* botões */
+.remover { background:#e3342f; color:#fff; border:none; padding:6px 10px; border-radius:6px; cursor:pointer; }
+.remover:hover { background:#cc2418; }
